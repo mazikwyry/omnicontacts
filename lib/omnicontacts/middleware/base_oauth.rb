@@ -15,6 +15,7 @@ module OmniContacts
         @app = app
         @listening_path = MOUNT_PATH + class_name
         @ssl_ca_file = options[:ssl_ca_file]
+        @env = {}
       end
 
       def class_name
